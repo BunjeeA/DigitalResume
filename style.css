@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@600&display=swap');
+
+body{
+    background-color: #1F2232;
+    margin: 25px;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 22px;
+    color: #FDE8E9; 
+}
+
+a:link {
+    color: #FDE8E9;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #FDE8E9;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #FDE8E9;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: #FDE8E9;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+span{
+    text-align: center;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 18px;
+}
+
+#emailnum{
+    margin-bottom: 15px;
+}
+
+#header{
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 0px;
+    font-size: 50px;
+    font-family: 'Smooch Sans', sans-serif;
+    font-weight: bold;
+}
+
+#topbar{
+    display: flex;
+    flex-direction: column;
+}
+
+#buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.tab{
+    border-radius: 20px;    
+    background-color: #FDE8E9;
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Smooch Sans', sans-serif;
+    font-weight: bold;
+}
+
+p{
+    margin: 0px;
+}
+
+
+.firstline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#title{
+    text-align: center;
+}
+
+#edContainer{
+    display: none;
+}
+
+#exContainer{
+    display: none;
+}
+
+#ecContainer{
+    display: none;
+}
+
+#skContainer{
+    display: none;
+}
+
+.bullet{
+    margin-top: 5px;
+}
