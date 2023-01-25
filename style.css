@@ -1,49 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Smooch+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@600&display=swap');
 
-body{
-    background-color: #1F2232;
+body {
+    background-color: #210F04;
     margin: 25px;
     font-family: 'Smooch Sans', sans-serif;
     font-size: 22px;
-    color: #FDE8E9; 
+    color: #DD7373;
 }
 
 a:link {
-    color: #FDE8E9;
+    color: #DD7373;
     background-color: transparent;
     text-decoration: none;
-  }
-  
-  a:visited {
-    color: #FDE8E9;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: #FDE8E9;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  
-  a:active {
-    color: #FDE8E9;
-    background-color: transparent;
-    text-decoration: underline;
-  }
+}
 
-span{
+a:visited {
+    color: #DD7373;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #DD7373;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #DD7373;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+span {
     text-align: center;
     font-family: 'Smooch Sans', sans-serif;
     font-size: 18px;
 }
 
-#emailnum{
+#emailnum {
     margin-bottom: 15px;
 }
 
-#header{
+#header {
     text-align: center;
     margin: 20px;
     margin-bottom: 0px;
@@ -52,57 +52,70 @@ span{
     font-weight: bold;
 }
 
-#topbar{
+#topbar {
     display: flex;
     flex-direction: column;
 }
 
-#buttons{
+#buttons {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.tab{
-    border-radius: 20px;    
-    background-color: #FDE8E9;
+.tab {
+    border-radius: 20px;
+    background-color: #DD7373;
+    border-color: #210F04;
     padding: 10px;
     font-size: 25px;
     font-family: 'Smooch Sans', sans-serif;
     font-weight: bold;
 }
 
-p{
+.tab:hover {
+    background-color:#D75B5B;
+}
+
+p {
     margin: 0px;
 }
 
 
-.firstline{
+.firstline {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-#title{
+#title {
     text-align: center;
 }
 
-#edContainer{
+#edContainer {
     display: none;
 }
 
-#exContainer{
+#exContainer {
     display: none;
 }
 
-#ecContainer{
+#ecContainer {
     display: none;
 }
 
-#skContainer{
+#skContainer {
     display: none;
 }
 
-.bullet{
+.bullet {
     margin-top: 5px;
+}
+
+.preassessment {
+    text-align: center;
+}
+
+.subtext {
+    font-size: 19px;
 }
