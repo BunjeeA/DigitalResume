@@ -1,6 +1,6 @@
 function dropdown1() {
     var x = document.getElementById("edContainer");
-    if (x.style.display === "none") {
+    if (x.style.display == "none" || x.style.display == '') {
       x.style.display = "block";
     } else {
       x.style.display = "none";
@@ -9,16 +9,16 @@ function dropdown1() {
 
 function dropdown2() {
     var x = document.getElementById("exContainer");
-    if (x.style.display === "none") {
+    if (x.style.display == "none" || x.style.display == '') {
       x.style.display = "block";
     } else {
       x.style.display = "none";
     }
 }
-console.log()
+
 function dropdown3() {
     var x = document.getElementById("ecContainer");
-    if (x.style.display === "none") {
+    if (x.style.display == "none" || x.style.display == '') {
       x.style.display = "block";
     } else {
       x.style.display = "none";
@@ -27,7 +27,7 @@ function dropdown3() {
 
 function dropdown4() {
     var x = document.getElementById("skContainer");
-    if (x.style.display === "none") {
+    if (x.style.display == "none" || x.style.display == '') {
       x.style.display = "block";
     } else {
       x.style.display = "none";
